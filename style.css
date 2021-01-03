@@ -1,0 +1,38 @@
+body {
+background-color:Turquoise;
+font-family: Comic Sans MS;
+text-align: center;
+border: 10px solid DarkMagenta;
+font-size: 20px
+}
+.navbar {
+overflow: hidden;
+margin: 0px 20vw;
+bottom:12px;
+}
+.navbar a {
+float: left;
+padding: 12px;
+color: Indigo;
+text-decoration: none;
+font-size: 23px;
+width: 25%; /* Four links of equal widths */
+text-align: center;
+}
+.navbar a:hover {
+color: DeepPink;
+}
+.navbar a.active {
+  	color: black;
+}
+.about_me_image{
+	padding: 10px;
+}
+.about-text {
+padding: 10px;
+text-align: left;
+}
+.content {
+padding: 10px;
+text-align: left;
+}
